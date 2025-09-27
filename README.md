@@ -1,2 +1,1 @@
-# diploma
-My diploma is devoted to the problem of the unnatural "corporate" style communication of modern language models. 
+Эта ветка для маленькой ruGPT-3(2) от сбера и маленького датасета на 5к пост-комментариев. 
