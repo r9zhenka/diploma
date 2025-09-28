@@ -1,7 +1,8 @@
 # diploma
 My diploma is devoted to the problem of the unnatural "corporate" style communication of modern language models. 
-
-
+Тема: 
+Адаптация языковых моделей/LLM для симуляции пользовательского поведения в онлайн-дискуссиях ИЛИ
+Методы fine-tuning (или сместить внимание на peft) языковых моделей для трансфера стиля в (текстовых) диалогах
 # Структура веток
 ## main branch
   Еще не делал, но нужно
