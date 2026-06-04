@@ -1,0 +1,146 @@
+{
+  "rugpt3_base": {
+    "len_mean": 36.2812,
+    "comd_dist-per-len": 0.548
+  },
+  "qwen_base": {
+    "len_mean": 25.6804,
+    "comd_dist-per-len": 0.675
+  },
+  "rugpt3_ft_ep1": {
+    "len_mean": 15.92,
+    "comd_dist-per-len": 0.5436
+  },
+  "rugpt3_ft_ep3": {
+    "len_mean": 15.82,
+    "comd_dist-per-len": 0.551
+  },
+  "qwen_ft_ep2": {
+    "len_mean": 12.5455,
+    "comd_dist-per-len": 0.4033
+  },
+  "qwen_ft_ep3": {
+    "len_mean": 14.0505,
+    "comd_dist-per-len": 0.5099
+  },
+  "lora_r8_ep3": {
+    "len_mean": 12.5657,
+    "comd_dist-per-len": 0.4493
+  },
+  "lora_r8_ep8": {
+    "len_mean": 13.3434,
+    "comd_dist-per-len": 0.4641
+  },
+  "lora_r16_ep2": {
+    "len_mean": 14.9898,
+    "comd_dist-per-len": 0.5448
+  },
+  "lora_r16_ep8": {
+    "len_mean": 11.6061,
+    "comd_dist-per-len": 0.398
+  },
+  "lora_r64_ep2": {
+    "len_mean": 15.3232,
+    "comd_dist-per-len": 0.5539
+  },
+  "lora_r64_ep8": {
+    "len_mean": 13.1313,
+    "comd_dist-per-len": 0.4413
+  },
+  "qwen_lora_r8_ep1": {
+    "len_mean": 11.6735,
+    "comd_dist-per-len": 0.4442
+  },
+  "qwen_lora_r8_ep2": {
+    "len_mean": 13.5213,
+    "comd_dist-per-len": 0.5131
+  },
+  "qwen_lora_r8_ep3": {
+    "len_mean": 14.2062,
+    "comd_dist-per-len": 0.502
+  },
+  "qwen_lora_r8_ep4": {
+    "len_mean": 12.2371,
+    "comd_dist-per-len": 0.4336
+  },
+  "qwen_lora_r8_ep5": {
+    "len_mean": 12.4949,
+    "comd_dist-per-len": 0.4518
+  },
+  "qwen_lora_r8_ep6": {
+    "len_mean": 12.4694,
+    "comd_dist-per-len": 0.4718
+  },
+  "qwen_lora_r8_ep7": {
+    "len_mean": 13.2347,
+    "comd_dist-per-len": 0.4834
+  },
+  "qwen_lora_r8_ep8": {
+    "len_mean": 13.4242,
+    "comd_dist-per-len": 0.4945
+  },
+  "qwen_lora_r16_ep1": {
+    "len_mean": 12.1429,
+    "comd_dist-per-len": 0.4245
+  },
+  "qwen_lora_r16_ep2": {
+    "len_mean": 13.8247,
+    "comd_dist-per-len": 0.4969
+  },
+  "qwen_lora_r16_ep3": {
+    "len_mean": 11.6061,
+    "comd_dist-per-len": 0.4276
+  },
+  "qwen_lora_r16_ep4": {
+    "len_mean": 13.5152,
+    "comd_dist-per-len": 0.4736
+  },
+  "qwen_lora_r16_ep5": {
+    "len_mean": 11.6364,
+    "comd_dist-per-len": 0.4305
+  },
+  "qwen_lora_r16_ep6": {
+    "len_mean": 13.3131,
+    "comd_dist-per-len": 0.4619
+  },
+  "qwen_lora_r16_ep7": {
+    "len_mean": 12.8283,
+    "comd_dist-per-len": 0.4588
+  },
+  "qwen_lora_r16_ep8": {
+    "len_mean": 13.303,
+    "comd_dist-per-len": 0.4886
+  },
+  "qwen_lora_r32_ep1": {
+    "len_mean": 13.3854,
+    "comd_dist-per-len": 0.4623
+  },
+  "qwen_lora_r32_ep2": {
+    "len_mean": 13.8673,
+    "comd_dist-per-len": 0.5224
+  },
+  "qwen_lora_r32_ep3": {
+    "len_mean": 11.9394,
+    "comd_dist-per-len": 0.4202
+  },
+  "qwen_lora_r32_ep4": {
+    "len_mean": 11.899,
+    "comd_dist-per-len": 0.4104
+  },
+  "qwen_lora_r32_ep5": {
+    "len_mean": 10.6566,
+    "comd_dist-per-len": 0.3699
+  },
+  "qwen_lora_r32_ep6": {
+    "len_mean": 12.5758,
+    "comd_dist-per-len": 0.4785
+  },
+  "qwen_lora_r32_ep7": {
+    "len_mean": 12.8788,
+    "comd_dist-per-len": 0.4874
+  },
+  "qwen_lora_r32_ep8": {
+    "len_mean": 13.0101,
+    "comd_dist-per-len": 0.4685
+  }
+}

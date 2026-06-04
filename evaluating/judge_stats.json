@@ -1,0 +1,372 @@
+{
+  "accuracy_per_config": {
+    "rugpt3_base": {
+      "accuracy": 0.532608695652174,
+      "correct": 49,
+      "total": 92
+    },
+    "qwen_base": {
+      "accuracy": 0.6813186813186813,
+      "correct": 62,
+      "total": 91
+    },
+    "rugpt3_ft_ep1": {
+      "accuracy": 0.2916666666666667,
+      "correct": 28,
+      "total": 96
+    },
+    "rugpt3_ft_ep3": {
+      "accuracy": 0.3125,
+      "correct": 30,
+      "total": 96
+    },
+    "qwen_ft_ep2": {
+      "accuracy": 0.5473684210526316,
+      "correct": 52,
+      "total": 95
+    },
+    "qwen_ft_ep3": {
+      "accuracy": 0.5157894736842106,
+      "correct": 49,
+      "total": 95
+    },
+    "qwen_lora_r8_ep1": {
+      "accuracy": 0.4787234042553192,
+      "correct": 45,
+      "total": 94
+    },
+    "qwen_lora_r8_ep2": {
+      "accuracy": 0.5494505494505495,
+      "correct": 50,
+      "total": 91
+    },
+    "qwen_lora_r8_ep3": {
+      "accuracy": 0.5698924731182796,
+      "correct": 53,
+      "total": 93
+    },
+    "qwen_lora_r8_ep4": {
+      "accuracy": 0.4946236559139785,
+      "correct": 46,
+      "total": 93
+    },
+    "qwen_lora_r8_ep5": {
+      "accuracy": 0.4842105263157895,
+      "correct": 46,
+      "total": 95
+    },
+    "qwen_lora_r8_ep6": {
+      "accuracy": 0.48936170212765956,
+      "correct": 46,
+      "total": 94
+    },
+    "qwen_lora_r8_ep7": {
+      "accuracy": 0.5425531914893617,
+      "correct": 51,
+      "total": 94
+    },
+    "qwen_lora_r8_ep8": {
+      "accuracy": 0.5157894736842106,
+      "correct": 49,
+      "total": 95
+    },
+    "qwen_lora_r16_ep1": {
+      "accuracy": 0.5319148936170213,
+      "correct": 50,
+      "total": 94
+    },
+    "qwen_lora_r16_ep2": {
+      "accuracy": 0.4731182795698925,
+      "correct": 44,
+      "total": 93
+    },
+    "qwen_lora_r16_ep3": {
+      "accuracy": 0.49473684210526314,
+      "correct": 47,
+      "total": 95
+    },
+    "qwen_lora_r16_ep4": {
+      "accuracy": 0.37894736842105264,
+      "correct": 36,
+      "total": 95
+    },
+    "qwen_lora_r16_ep5": {
+      "accuracy": 0.35789473684210527,
+      "correct": 34,
+      "total": 95
+    },
+    "qwen_lora_r16_ep6": {
+      "accuracy": 0.4421052631578947,
+      "correct": 42,
+      "total": 95
+    },
+    "qwen_lora_r16_ep7": {
+      "accuracy": 0.4421052631578947,
+      "correct": 42,
+      "total": 95
+    },
+    "qwen_lora_r16_ep8": {
+      "accuracy": 0.45263157894736844,
+      "correct": 43,
+      "total": 95
+    },
+    "qwen_lora_r32_ep1": {
+      "accuracy": 0.5760869565217391,
+      "correct": 53,
+      "total": 92
+    },
+    "qwen_lora_r32_ep2": {
+      "accuracy": 0.4838709677419355,
+      "correct": 45,
+      "total": 93
+    },
+    "qwen_lora_r32_ep3": {
+      "accuracy": 0.43157894736842106,
+      "correct": 41,
+      "total": 95
+    },
+    "qwen_lora_r32_ep4": {
+      "accuracy": 0.42105263157894735,
+      "correct": 40,
+      "total": 95
+    },
+    "qwen_lora_r32_ep5": {
+      "accuracy": 0.35789473684210527,
+      "correct": 34,
+      "total": 95
+    },
+    "qwen_lora_r32_ep6": {
+      "accuracy": 0.42105263157894735,
+      "correct": 40,
+      "total": 95
+    },
+    "qwen_lora_r32_ep7": {
+      "accuracy": 0.42105263157894735,
+      "correct": 40,
+      "total": 95
+    },
+    "qwen_lora_r32_ep8": {
+      "accuracy": 0.5052631578947369,
+      "correct": 48,
+      "total": 95
+    },
+    "qwen_lora_ffn_ep1": {
+      "accuracy": 0.45263157894736844,
+      "correct": 43,
+      "total": 95
+    },
+    "qwen_lora_ffn_ep2": {
+      "accuracy": 0.4842105263157895,
+      "correct": 46,
+      "total": 95
+    },
+    "qwen_lora_ffn_ep3": {
+      "accuracy": 0.42105263157894735,
+      "correct": 40,
+      "total": 95
+    },
+    "qwen_lora_ffn_ep4": {
+      "accuracy": 0.5368421052631579,
+      "correct": 51,
+      "total": 95
+    },
+    "qwen_lora_ffn_ep5": {
+      "accuracy": 0.4842105263157895,
+      "correct": 46,
+      "total": 95
+    },
+    "qwen_lora_ffn_ep6": {
+      "accuracy": 0.4631578947368421,
+      "correct": 44,
+      "total": 95
+    },
+    "qwen_lora_ffn_ep7": {
+      "accuracy": 0.5368421052631579,
+      "correct": 51,
+      "total": 95
+    },
+    "qwen_lora_ffn_ep8": {
+      "accuracy": 0.49473684210526314,
+      "correct": 47,
+      "total": 95
+    },
+    "qwen_lora_fan_ep1": {
+      "accuracy": 0.4787234042553192,
+      "correct": 45,
+      "total": 94
+    },
+    "qwen_lora_fan_ep2": {
+      "accuracy": 0.4421052631578947,
+      "correct": 42,
+      "total": 95
+    },
+    "qwen_lora_fan_ep3": {
+      "accuracy": 0.4842105263157895,
+      "correct": 46,
+      "total": 95
+    },
+    "qwen_lora_fan_ep4": {
+      "accuracy": 0.42105263157894735,
+      "correct": 40,
+      "total": 95
+    },
+    "qwen_lora_fan_ep5": {
+      "accuracy": 0.4421052631578947,
+      "correct": 42,
+      "total": 95
+    },
+    "qwen_lora_fan_ep6": {
+      "accuracy": 0.5263157894736842,
+      "correct": 50,
+      "total": 95
+    },
+    "qwen_lora_fan_ep7": {
+      "accuracy": 0.5263157894736842,
+      "correct": 50,
+      "total": 95
+    },
+    "qwen_lora_fan_ep8": {
+      "accuracy": 0.49473684210526314,
+      "correct": 47,
+      "total": 95
+    },
+    "qwen_ia3_ep1": {
+      "accuracy": 0.5543478260869565,
+      "correct": 51,
+      "total": 92
+    },
+    "qwen_ia3_ep2": {
+      "accuracy": 0.5053763440860215,
+      "correct": 47,
+      "total": 93
+    },
+    "qwen_ia3_ep3": {
+      "accuracy": 0.4421052631578947,
+      "correct": 42,
+      "total": 95
+    },
+    "qwen_ia3_ep4": {
+      "accuracy": 0.42105263157894735,
+      "correct": 40,
+      "total": 95
+    },
+    "qwen_ia3_ep5": {
+      "accuracy": 0.3894736842105263,
+      "correct": 37,
+      "total": 95
+    },
+    "qwen_ia3_ep6": {
+      "accuracy": 0.43157894736842106,
+      "correct": 41,
+      "total": 95
+    },
+    "qwen_ia3_ep7": {
+      "accuracy": 0.42105263157894735,
+      "correct": 40,
+      "total": 95
+    },
+    "qwen_ia3_ep8": {
+      "accuracy": 0.3894736842105263,
+      "correct": 37,
+      "total": 95
+    }
+  },
+  "post_scores": {
+    "429": 54,
+    "99": 52,
+    "214": 52,
+    "81": 51,
+    "565": 51,
+    "114": 50,
+    "721": 50,
+    "238": 49,
+    "759": 49,
+    "826": 49,
+    "828": 47,
+    "163": 47,
+    "777": 47,
+    "459": 47,
+    "284": 46,
+    "692": 46,
+    "791": 45,
+    "887": 43,
+    "733": 43,
+    "379": 43,
+    "654": 41,
+    "890": 41,
+    "618": 41,
+    "203": 41,
+    "142": 40,
+    "281": 40,
+    "1010": 40,
+    "875": 40,
+    "633": 39,
+    "643": 38,
+    "854": 38,
+    "344": 38,
+    "223": 38,
+    "80": 36,
+    "225": 35,
+    "233": 35,
+    "296": 35,
+    "95": 34,
+    "470": 34,
+    "432": 32,
+    "758": 32,
+    "220": 31,
+    "998": 31,
+    "270": 31,
+    "714": 30,
+    "166": 30,
+    "352": 29,
+    "300": 29,
+    "913": 28,
+    "967": 28,
+    "44": 27,
+    "718": 26,
+    "591": 26,
+    "71": 25,
+    "754": 24,
+    "984": 23,
+    "517": 22,
+    "25": 22,
+    "944": 22,
+    "89": 21,
+    "677": 21,
+    "373": 21,
+    "348": 21,
+    "27": 21,
+    "104": 21,
+    "389": 20,
+    "196": 20,
+    "665": 19,
+    "558": 19,
+    "46": 18,
+    "616": 18,
+    "604": 17,
+    "1003": 17,
+    "867": 16,
+    "159": 16,
+    "747": 15,
+    "849": 15,
+    "127": 15,
+    "30": 14,
+    "387": 12,
+    "549": 11,
+    "250": 10,
+    "650": 9,
+    "574": 8,
+    "370": 7,
+    "464": 7,
+    "882": 7,
+    "32": 6,
+    "6": 5,
+    "906": 4,
+    "974": 4,
+    "363": 3,
+    "228": 3,
+    "781": 3,
+    "367": 2,
+    "1006": 1
+  }
+}
