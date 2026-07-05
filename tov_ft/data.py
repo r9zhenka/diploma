@@ -1,11 +1,7 @@
-"""Mock Russian dataset for the corporate ToV rewrite task.
-
-Each example = (client dialog, operator's rough free-text draft, gold corporate answer).
-Swap `MOCK_EXAMPLES` for the real dataset once it is available; the schema stays the same.
-"""
+"""Mock dataset"""
 from datasets import Dataset
 
-from prompts import build_messages
+from diploma.tov_ft.prompts import build_messages
 
 # --- MOCK data ------------------------------------------------------------
 MOCK_EXAMPLES: list[dict] = [

@@ -32,6 +32,9 @@
 ## Структура
 
 ```
+├── diploma_text.pdf            # Текст диплома (без титульного листа)
+├── diploma_presentation.pdf    # Презентация к защите (без титульного слайда)
+│
 ├── llm_default.py              # LLM-as-a-Judge: запуск и агрегация
 ├── strip_outputs.py            # Чистка outputs из .ipynb перед коммитом
 ├── requirements.txt
@@ -66,10 +69,31 @@
 │       ├── lora_v4.ipynb
 │       └── lora_ffnn_v1.ipynb
 │
+├── tov_ft/                     # Прототип: применение подхода на практике (см. ниже)
+│   ├── config.py               # Конфиг модели / LoRA / обучения / генерации
+│   ├── data.py                 # Датасет (диалог + черновик + эталонный ответ)
+│   ├── prompts.py              # Системный tone-of-voice промпт и сборка сообщений
+│   ├── train.py                # LoRA-дообучение Gemma E4B через Unsloth
+│   └── infer.py                # Инференс: переписывание черновика в корп. тоне
+│
 └── README.md
+```
+
+## Прототип: `tov_ft/`
+
+Практическое применение диплома — LoRA-дообучение LLM под корпоративный
+tone-of-voice. Модель получает диалог с клиентом и «сырой» черновик оператора,
+а на выходе выдаёт вежливый ответ в фирменном стиле компании (факты, сроки и
+суммы из черновика сохраняются). Обучение — `train_on_responses_only` поверх
+Gemma E4B (Unsloth, LoRA r=8, 4-bit). Данные и tone-of-voice промпт пока
+mock-заглушки со стабильной схемой — заменяются на реальные без изменения кода.
+
+```
+python -m diploma.tov_ft.train    # дообучить LoRA-адаптер
+python -m diploma.tov_ft.infer    # прогнать на демо-черновиках
 ```
 
 ## Основной стек
 
-Python, PyTorch, HuggingFace Transformers, PEFT (LoRA, (IA)^3), Datasets, BERTScore, Sentence-Transformers
+Python, PyTorch, HuggingFace Transformers, PEFT (LoRA, (IA)^3), Datasets, BERTScore, Sentence-Transformers, Unsloth, TRL
 

@@ -13,8 +13,8 @@ from unsloth import FastModel
 from unsloth.chat_templates import get_chat_template, train_on_responses_only
 from trl import SFTTrainer, SFTConfig
 
-from config import MODEL, LORA, TRAIN
-from data import build_dataset
+from diploma.tov_ft.config import MODEL, LORA, TRAIN
+from diploma.tov_ft.data import build_dataset
 
 
 def main() -> None:

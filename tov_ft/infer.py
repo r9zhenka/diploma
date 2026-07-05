@@ -11,8 +11,8 @@ from unsloth import FastModel
 from unsloth.chat_templates import get_chat_template
 from transformers import TextStreamer
 
-from config import MODEL, TRAIN, GEN
-from prompts import build_messages
+from diploma.tov_ft.config import MODEL, TRAIN, GEN
+from diploma.tov_ft.prompts import build_messages
 
 # (client dialog, operator's rough free-text draft)
 DEMO_CASES = [
